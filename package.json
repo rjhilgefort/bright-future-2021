@@ -1,9 +1,13 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "bright-future-2021",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Bright Future 2021",
   "version": "0.1.0",
   "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -14,18 +18,36 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
     "gatsby": "^2.26.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "twin.macro": "^1.12.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.12.1",
+    "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",
     "prettier": "2.1.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "babelMacros": {
+    "twin": {
+      "styled": {
+        "import": "default",
+        "from": "@emotion/styled"
+      },
+      "css": {
+        "import": "css",
+        "from": "@emotion/react"
+      },
+      "global": {
+        "import": "Global",
+        "from": "@emotion/react"
+      },
+      "config": "tailwind.config.js",
+      "debugProp": true,
+      "debugPlugins": false,
+      "debug": false
+    }
   }
 }
