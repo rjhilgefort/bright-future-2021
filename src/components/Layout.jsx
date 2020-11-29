@@ -1,11 +1,15 @@
 import React from "react";
-import { GlobalStyles } from "twin.macro";
+import tw, { GlobalStyles } from 'twin.macro'
+
+const Container = tw.div`
+  container mx-auto
+`;
 
 const Layout = ({ children }) => (
-  <div>
+  <Container>
     <GlobalStyles />
     {children}
-  </div>
+  </Container>
 );
 
 export default Layout;
