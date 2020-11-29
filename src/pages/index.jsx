@@ -12,7 +12,7 @@ import Layout from '../components/Layout'
 
 const App = () => (
   <Layout>
-    <div class="flex justify-between items-center py-4 bg-blue-900">
+    {/* <div class="flex justify-between items-center py-4 bg-red-900">
       <div class="flex-shrink-0 ml-10 cursor-pointer">
         <i class="fas fa-drafting-compass fa-2x text-orange-500"></i>
         <span class="ml-1 text-3xl text-blue-200 font-semibold">WebCraft</span>
@@ -26,6 +26,23 @@ const App = () => (
         </li>
         <li class="mr-6 p-1">
           <a class="text-white hover:text-blue-300" href="#">Services</a>
+        </li>
+      </ul>
+    </div> */}
+    <div class="">
+      <div class="">
+        <i class=""></i>
+        <span class="">WebCraft</span>
+      </div>
+
+      <i class=""></i>
+
+      <ul class="">
+        <li class="">
+          <a class="" href="#">Home</a>
+        </li>
+        <li class="">
+          <a class="" href="#">Services</a>
         </li>
       </ul>
     </div>
