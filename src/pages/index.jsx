@@ -1,5 +1,5 @@
 import React from 'react'
-import tw from 'twin.macro'
+// import tw from 'twin.macro'
 import Layout from '../components/Layout'
 
 // const PageContainer = tw.div`
@@ -11,8 +11,8 @@ import Layout from '../components/Layout'
 // `
 
 const App = () => (
-  <Layout>
-    {/* <div class="flex justify-between items-center py-4 bg-red-900">
+  // <Layout>
+    <div class="flex justify-between items-center py-4 bg-blue-900">
       <div class="flex-shrink-0 ml-10 cursor-pointer">
         <i class="fas fa-drafting-compass fa-2x text-orange-500"></i>
         <span class="ml-1 text-3xl text-blue-200 font-semibold">WebCraft</span>
@@ -28,25 +28,8 @@ const App = () => (
           <a class="text-white hover:text-blue-300" href="#">Services</a>
         </li>
       </ul>
-    </div> */}
-    <div class="">
-      <div class="">
-        <i class=""></i>
-        <span class="">WebCraft</span>
-      </div>
-
-      <i class=""></i>
-
-      <ul class="">
-        <li class="">
-          <a class="" href="#">Home</a>
-        </li>
-        <li class="">
-          <a class="" href="#">Services</a>
-        </li>
-      </ul>
     </div>
-  </Layout>
+  // </Layout>
 )
 
 export default App

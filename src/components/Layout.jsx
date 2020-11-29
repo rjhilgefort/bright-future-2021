@@ -1,15 +1,15 @@
 import React from "react";
-import tw, { GlobalStyles } from 'twin.macro'
+// import tw, { GlobalStyles } from 'twin.macro'
+import tw from 'twin.macro'
 
-const Container = tw.div`
+const SiteContainer = tw.div`
   container mx-auto
 `;
 
 const Layout = ({ children }) => (
-  <Container>
-    <GlobalStyles />
+  <SiteContainer>
     {children}
-  </Container>
+  </SiteContainer>
 );
 
 export default Layout;

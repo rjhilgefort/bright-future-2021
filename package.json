@@ -28,7 +28,8 @@
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.12.1",
     "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",
-    "prettier": "2.1.2"
+    "prettier": "2.1.2",
+    "tailwindcss": "^2.0.1"
   },
   "babelMacros": {
     "twin": {
